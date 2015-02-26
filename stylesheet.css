@@ -72,7 +72,7 @@ nav li {
 }
 
 nav li:hover {
-	background-color: #00C3A9;
+	background-color: #009DB1; /*#00C3A9*/
 }
 
 /* ===== semantic elements: ===== */
@@ -138,7 +138,7 @@ section h1 {
 }
 
 #profile article:nth-child(3), #profile article:nth-child(4)  {
-	border-top: 2px solid #535598;
+	border-top: 2px solid #007A8A;
 	padding-top: 1.5em;
 }
 
@@ -179,15 +179,15 @@ section h1 {
     left: 0;
     background-color: rgba(0, 0, 0, .8);
     width: 300px;
-    height: 150px; 
+    height: 150px;
+    font-size: 1.75em;
 }
 
 .caption p, .caption a {
     padding-top: 50px;
     text-align: center;
     text-decoration: none;
-    color: #00C3A9;
-    font-size: 1.75em; 
+    color: #00C3A9; 
 }
 
 .caption a:visited {
@@ -324,7 +324,7 @@ section h1 {
 }
 
 #profile article:nth-child(3), #profile article:nth-child(4) {
-	border-left: 2px solid #535598;
+	border-left: 2px solid #007A8A;
 	border-top: none;
 }
 
@@ -334,7 +334,7 @@ section h1 {
 
 #projects {
 	clear: both;
-	height: 560px;
+	height: 800px;
 }
 
 #projects article {
@@ -412,12 +412,12 @@ section h1 {
 }
 
 
-#projects article:nth-child(2), #projects article:nth-child(4) {
+#projects article:nth-child(2), #projects article:nth-child(4), #projects article:nth-child(6) {
 	margin-left: 110px;
 	margin-right: 70px;
 }
 
-#projects article:nth-child(3), #projects article:nth-child(5) {
+#projects article:nth-child(3), #projects article:nth-child(5), #projects article:nth-child(7) {
 	margin-left: 70px;
 	margin-right: 110px;
 }
