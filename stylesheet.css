@@ -194,6 +194,19 @@ section h1 {
     color: inherit;
 }
 
+#projects .featured > img {
+	width: 300px;
+}
+
+.featured .caption {
+	width: 300px;
+	height: 169px;
+}
+
+.featured .caption p, .caption a {
+	padding-top: 60px;
+}
+
 #services article {
 	width: 300px;
 }
@@ -334,12 +347,31 @@ section h1 {
 
 #projects {
 	clear: both;
-	height: 800px;
+	height: 1450px;
 }
 
 #projects article {
 	float: left;
 	margin: 0 42px;
+}
+
+#projects .featured {
+	float: none;
+	width: 500px;
+	margin: auto;
+}
+
+#projects .featured > img {
+	width: 500px;
+}
+
+.featured .caption {
+	width: 500px;
+	height: 281px;
+}
+
+.featured .caption p, .caption a {
+    padding-top: 110px;
 }
 
 #services {
@@ -412,12 +444,12 @@ section h1 {
 }
 
 
-#projects article:nth-child(2), #projects article:nth-child(4), #projects article:nth-child(6) {
+#projects article:nth-child(3), #projects article:nth-child(5), #projects article:nth-child(7), #projects article:nth-child(9) {
 	margin-left: 110px;
 	margin-right: 70px;
 }
 
-#projects article:nth-child(3), #projects article:nth-child(5), #projects article:nth-child(7) {
+#projects article:nth-child(4), #projects article:nth-child(6), #projects article:nth-child(8), #projects article:nth-child(10) {
 	margin-left: 70px;
 	margin-right: 110px;
 }
